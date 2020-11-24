@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <link rel="shortcut icon" href="favicon.ico" />
+        <title>bas</title>
+        <link href="bas/css/app.0c013f87b0f8af174940e0cae8803318.css" rel="stylesheet" />
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            html {
+                background-image: url(img/bg.jpg);
+            }
+            body {
+                position: relative;
+                height: 100%;
+                margin: 0px;
+                background-color: rgba(255, 255, 255, 0.3);
+            }
+            .el-header {
+                background: rgb(255, 255, 255);
+            }
+            .editor-wrap {
+                position: fixed;
+                z-index: 2;
+                left: 75%;
+                top: 50px;
+            }
+            #dplayer {
+                position: fixed;
+                width: 70%;
+                left: 20px;
+                top: 80px;
+            }
+            #configBox {
+                position: fixed;
+                left: 0px;
+                bottom: 0px;
+            }
+            #dplayer-width {
+                width: 100px;
+            }
+            #editor-width {
+                width: 100px;
+            }
+            #editor-height {
+                width: 100px;
+            }
+            @keyframes bas-restart {
+                100% {
+                    line-height: 1;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div id="app"></div>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+        <script src="./bas.js"></script>
+        <script src="./ace.js"></script>
+        <script type="text/javascript" src="bas/js/manifest.829e00d890121509e22e.js"></script>
+        <script type="text/javascript" src="bas/js/vendor.bd436b93bd90786303c7.js"></script>
+        <script type="text/javascript" src="bas/js/app.59cdc076d0e91f934349.js"></script>
+
+        <div id="configBox">
+            <!-- <button id="bas-clear" class="el-button el-button--primary is-plain">取消弹幕保护</button> -->
+            <br />
+            <span>播放器宽度(%)</span>
+            <input type="text" name="dplayer-width" id="dplayer-width" value="70" />
+            <br />
+            <span>编辑器宽度(%)</span>
+            <input type="text" name="editor-width" id="editor-width" value="20" />
+            <br />
+            <span>编辑器高度(%)</span>
+            <input type="text" name="editor-height" id="editor-height" value="80" />
+        </div>
+        <div id="dplayer"></div>
+        <script src="DPlayer/DPlayer.min.js"></script>
+        <script>
+            window.onload = function () {
+                var dplayer = document.getElementById("dplayer");
+                var basContainer = document.querySelector(".basContainer");
+                var editor_wrap = document.querySelector(".editor-wrap");
+                dplayer.addEventListener("mousedown", canvasMoveStart);
+                editor_wrap.addEventListener("mousedown", editorMoveStart);
+                editor_wrap.style.setProperty(
+                    "width",
+                    document.getElementById("editor-width").value + "% ",
+                    "important"
+                );
+                editor_wrap.style.setProperty(
+                    "height",
+                    document.getElementById("editor-height").value + "% ",
+                    "important"
+                );
+            };
+            document.getElementById("dplayer-width").addEventListener("change", function () {
+                var main_canvas = document.getElementById("dplayer");
+                var basContainer = document.querySelector(".basContainer");
+                main_canvas.style.width = document.getElementById("dplayer-width").value + "%";
+                basContainer.style.left = dplayer.offsetLeft + "px";
+                basContainer.style.top = dplayer.offsetTop + "px";
+                basContainer.style.width = dplayer.offsetWidth + "px";
+                basContainer.style.height = dplayer.offsetHeight + "px";
+            });
+            document.getElementById("editor-width").addEventListener("change", function () {
+                var editor_wrap = document.querySelector(".editor-wrap");
+                editor_wrap.style.setProperty(
+                    "width",
+                    document.getElementById("editor-width").value + "% ",
+                    "important"
+                );
+            });
+            document.getElementById("editor-height").addEventListener("change", function () {
+                var editor_wrap = document.querySelector(".editor-wrap");
+                editor_wrap.style.setProperty(
+                    "height",
+                    document.getElementById("editor-height").value + "% ",
+                    "important"
+                );
+            });
+            function canvasMoveStart(e) {
+                if (e.button != 1) {
+                    return;
+                }
+                if (event.preventDefault) {
+                    event.preventDefault();
+                }
+                document.addEventListener("mousemove", canvasMoving);
+                document.addEventListener("mouseup", canvasMoveEnd);
+                var main_canvas = document.getElementById("dplayer");
+                main_canvas.dataset.xc = e.pageX - main_canvas.offsetLeft;
+                main_canvas.dataset.yc = e.pageY - main_canvas.offsetTop;
+                main_canvas.dataset.isMoving = true;
+            }
+            function editorMoveStart(e) {
+                if (e.button != 1) {
+                    return;
+                }
+                if (event.preventDefault) {
+                    event.preventDefault();
+                }
+                document.addEventListener("mousemove", canvasMoving);
+                document.addEventListener("mouseup", canvasMoveEnd);
+                var editor_wrap = document.querySelector(".editor-wrap");
+                editor_wrap.dataset.xc = e.pageX - editor_wrap.offsetLeft;
+                editor_wrap.dataset.yc = e.pageY - editor_wrap.offsetTop;
+                editor_wrap.dataset.isMoving = true;
+            }
+            function canvasMoveEnd(e) {
+                if (e.button != 1) {
+                    return;
+                }
+                document.removeEventListener("mousemove", canvasMoving);
+                document.removeEventListener("mouseup", canvasMoveEnd);
+                var main_canvas = document.getElementById("dplayer");
+                var editor_wrap = document.querySelector(".editor-wrap");
+                main_canvas.dataset.isMoving = false;
+                editor_wrap.dataset.isMoving = false;
+            }
+            function canvasMoving(e) {
+                var main_canvas = document.getElementById("dplayer");
+                var basContainer = document.querySelector(".basContainer");
+                var editor_wrap = document.querySelector(".editor-wrap");
+                if (main_canvas.dataset.isMoving == "true") {
+                    main_canvas.style.left = e.pageX - main_canvas.dataset.xc + "px";
+                    main_canvas.style.top = e.pageY - main_canvas.dataset.yc + "px";
+                    basContainer.style.left = dplayer.offsetLeft + "px";
+                    basContainer.style.top = dplayer.offsetTop + "px";
+                    basContainer.style.width = dplayer.offsetWidth + "px";
+                    basContainer.style.height = dplayer.offsetHeight + "px";
+                } else if (editor_wrap.dataset.isMoving == "true") {
+                    editor_wrap.style.left = e.pageX - editor_wrap.dataset.xc + "px";
+                    editor_wrap.style.top = e.pageY - editor_wrap.dataset.yc + "px";
+                }
+            }
+            const dp = new DPlayer({
+                container: document.getElementById("dplayer"),
+                video: {
+                    url: "demo.mp4",
+                },
+            });
+            dp.on("canplay", function () {
+                var basContainer = document.querySelector(".basContainer");
+                basContainer.style.left = dplayer.offsetLeft + "px";
+                basContainer.style.top = dplayer.offsetTop + "px";
+                basContainer.style.width = dplayer.offsetWidth + "px";
+                basContainer.style.height = dplayer.offsetHeight + "px";
+            });
+            dp.on("seeked", () => {
+                dp.pause();
+                basRedelay();
+            });
+            dp.on("pause", function () {
+                document.querySelector(".bas-danmaku").classList.add("bas-danmaku-pause");
+            });
+            dp.on("play", function () {
+                basRestart2();
+                document.querySelector(".bas-danmaku").classList.remove("bas-danmaku-pause");
+            });
+            let cssElem = null;
+            let animationDelayMap = {};
+            document.querySelector(".basContainer").addEventListener("DOMNodeInserted", basDelayInit);
+            document.getElementById("bas-clear").addEventListener("click", function () {
+                var bas_danmaku_item_wraps = document.querySelectorAll(".bas-danmaku-item-wrap");
+                if (!bas_danmaku_item_wraps) {
+                    return;
+                }
+                for (let index = 0; index < bas_danmaku_item_wraps.length; index++) {
+                    const bas_danmaku_item_wrap = bas_danmaku_item_wraps[index];
+                    bas_danmaku_item_wrap.removeEventListener("webkitAnimationEnd", fun_false);
+                    bas_danmaku_item_wrap.removeEventListener("animationend", fun_false);
+                }
+            });
+            function basRestart1() {
+                var bas_items = document.querySelectorAll(".bas-danmaku-item");
+                if (!bas_items) {
+                    return;
+                }
+                for (let index = 0; index < bas_items.length; index++) {
+                    const bas_item = bas_items[index];
+                    bas_item.style.animationName = "bas-restart";
+                }
+            }
+            function basRestart2() {
+                var bas_items = document.querySelectorAll(".bas-danmaku-item");
+                if (!bas_items) {
+                    return;
+                }
+                for (let index = 0; index < bas_items.length; index++) {
+                    const bas_item = bas_items[index];
+                    bas_item.style.animationName = bas_item.dataset.animationName;
+                }
+            }
+            function fun_false() {
+                return false;
+            }
+            function basDelayInit() {
+                var bas_danmaku_item_wraps = document.querySelectorAll(".bas-danmaku-item-wrap");
+                if (bas_danmaku_item_wraps) {
+                    for (let index = 0; index < bas_danmaku_item_wraps.length; index++) {
+                        const bas_danmaku_item_wrap = bas_danmaku_item_wraps[index];
+                        bas_danmaku_item_wrap.addEventListener("webkitAnimationEnd", fun_false);
+                        bas_danmaku_item_wrap.addEventListener("animationend", fun_false);
+                    }
+                }
+
+                document.querySelector(".bas-danmaku").classList.add("bas-danmaku-pause");
+                var bas_items = document.querySelectorAll(".bas-danmaku-item");
+                if (!bas_items) {
+                    return;
+                }
+                cssText = [];
+                for (let index = 0; index < bas_items.length; index++) {
+                    const bas_item = bas_items[index];
+                    cssText.push("." + bas_item.classList[2] + " {");
+                    cssText.push("animation-delay:" + bas_item.style.animationDelay + " !important");
+                    cssText.push("}");
+                    bas_item.dataset.animationName = bas_item.style.animationName;
+                }
+                cssText = cssText.join("");
+                if (cssElem) {
+                    document.head.removeChild(cssElem);
+                }
+                cssElem = document.createElement("style");
+                cssElem.setAttribute("type", "text/css");
+                cssElem.innerHTML = cssText;
+                document.head.appendChild(cssElem);
+
+                let cssRules = cssElem.sheet.cssRules;
+                for (let index = 0; index < cssRules.length; index++) {
+                    const cssRule = cssRules[index];
+                    if (cssRule.selectorText) {
+                        animationDelayMap[cssRule.selectorText] = cssRule.style.animationDelay;
+                    }
+                }
+                basRestart1();
+            }
+            function basRedelay() {
+                basRestart1();
+                let basDelay = dp.video.currentTime;
+                console.log("basRedelay");
+                console.log("basDelay:" + basDelay);
+                let cssRules = cssElem.sheet.cssRules;
+                for (let index = 0; index < cssRules.length; index++) {
+                    const cssRule = cssRules[index];
+                    if (cssRule.selectorText && cssRule.style.animationDelay) {
+                        delay_splits = animationDelayMap[cssRule.selectorText].split(",");
+                        console.log(delay_splits);
+                        for (let j = 0; j < delay_splits.length; j++) {
+                            delay_splits[j] =
+                                (
+                                    parseFloat(
+                                        delay_splits[j].substring(0, animationDelayMap[cssRule.selectorText].length - 1)
+                                    ) - basDelay
+                                ).toFixed(2) + "s";
+                        }
+                        console.log(delay_splits.join(","));
+                        cssRule.style.setProperty("animation-delay", delay_splits.join(","), "important");
+                    }
+                }
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,2132 @@
+def text assDia0_raw {
+    content = ""
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "方正楷体_GBK"
+    fontSize = 6.25%
+    color = 0xD1E0D7
+    alpha = 0
+    bold = 0
+    rotateZ = 0
+}
+set assDia0_raw {
+    x = 50%
+    y = 99.72%
+    alpha = 1
+} 7199.92s, "step-end"
+def text assDia0_css {
+    content = ""
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "方正楷体_GBK"
+    fontSize = 6.25%
+    color = 0xD1E0D7
+    alpha = 0
+    bold = 0
+    rotateZ = 0
+}
+set assDia0_css {
+    x = 50%
+    y = 99.72%
+    alpha = 1
+} 7199.92s, "step-end"
+def text assDia1_raw {
+    content = "静かに燃える世界　始まりはここから"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia1_raw {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 11.76s, "step-end"
+then set assDia1_raw {
+    alpha = 1
+} 120ms
+then set assDia1_raw {
+} 5020ms
+then set assDia1_raw {
+    alpha = 0
+} 120ms
+def text assDia1_css {
+    content = "静かに燃える世界　始まりはここから"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia1_css {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 11.76s, "step-end"
+then set assDia1_css {
+    alpha = 1
+} 120ms
+then set assDia1_css {
+} 5020ms
+then set assDia1_css {
+    alpha = 0
+} 120ms
+def text assDia2_raw {
+    content = "一切都始于这个静静地燃烧着的世界"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia2_raw {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 11.76s, "step-end"
+then set assDia2_raw {
+    alpha = 1
+} 120ms
+then set assDia2_raw {
+} 5020ms
+then set assDia2_raw {
+    alpha = 0
+} 120ms
+def text assDia2_css {
+    content = "一切都始于这个静静地燃烧着的世界"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia2_css {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 11.76s, "step-end"
+then set assDia2_css {
+    alpha = 1
+} 120ms
+then set assDia2_css {
+} 5020ms
+then set assDia2_css {
+    alpha = 0
+} 120ms
+def text assDia3_raw {
+    content = "夜空が終わりを告げるとき"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia3_raw {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 17.18s, "step-end"
+then set assDia3_raw {
+    alpha = 1
+} 120ms
+then set assDia3_raw {
+} 4360ms
+then set assDia3_raw {
+    alpha = 0
+} 120ms
+def text assDia3_css {
+    content = "夜空が終わりを告げるとき"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia3_css {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 17.18s, "step-end"
+then set assDia3_css {
+    alpha = 1
+} 120ms
+then set assDia3_css {
+} 4360ms
+then set assDia3_css {
+    alpha = 0
+} 120ms
+def text assDia4_raw {
+    content = "在长夜将明的时候"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia4_raw {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 17.18s, "step-end"
+then set assDia4_raw {
+    alpha = 1
+} 120ms
+then set assDia4_raw {
+} 4360ms
+then set assDia4_raw {
+    alpha = 0
+} 120ms
+def text assDia4_css {
+    content = "在长夜将明的时候"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia4_css {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 17.18s, "step-end"
+then set assDia4_css {
+    alpha = 1
+} 120ms
+then set assDia4_css {
+} 4360ms
+then set assDia4_css {
+    alpha = 0
+} 120ms
+def text assDia5_raw {
+    content = "一筋の光が　胸に秘めた声が"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia5_raw {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 22.03s, "step-end"
+then set assDia5_raw {
+    alpha = 1
+} 120ms
+then set assDia5_raw {
+} 4970ms
+then set assDia5_raw {
+    alpha = 0
+} 120ms
+def text assDia5_css {
+    content = "一筋の光が　胸に秘めた声が"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia5_css {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 22.03s, "step-end"
+then set assDia5_css {
+    alpha = 1
+} 120ms
+then set assDia5_css {
+} 4970ms
+then set assDia5_css {
+    alpha = 0
+} 120ms
+def text assDia6_raw {
+    content = "一道光芒 一声发自灵魂的呐喊"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia6_raw {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 22.03s, "step-end"
+then set assDia6_raw {
+    alpha = 1
+} 120ms
+then set assDia6_raw {
+} 4970ms
+then set assDia6_raw {
+    alpha = 0
+} 120ms
+def text assDia6_css {
+    content = "一道光芒 一声发自灵魂的呐喊"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia6_css {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 22.03s, "step-end"
+then set assDia6_css {
+    alpha = 1
+} 120ms
+then set assDia6_css {
+} 4970ms
+then set assDia6_css {
+    alpha = 0
+} 120ms
+def text assDia7_raw {
+    content = "解き放つ　闇を裂いて"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia7_raw {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 27.34s, "step-end"
+then set assDia7_raw {
+    alpha = 1
+} 120ms
+then set assDia7_raw {
+} 3700ms
+then set assDia7_raw {
+    alpha = 0
+} 120ms
+def text assDia7_css {
+    content = "解き放つ　闇を裂いて"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia7_css {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 27.34s, "step-end"
+then set assDia7_css {
+    alpha = 1
+} 120ms
+then set assDia7_css {
+} 3700ms
+then set assDia7_css {
+    alpha = 0
+} 120ms
+def text assDia8_raw {
+    content = "冲破束缚 撕裂黑暗"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia8_raw {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 27.34s, "step-end"
+then set assDia8_raw {
+    alpha = 1
+} 120ms
+then set assDia8_raw {
+} 3700ms
+then set assDia8_raw {
+    alpha = 0
+} 120ms
+def text assDia8_css {
+    content = "冲破束缚 撕裂黑暗"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia8_css {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 27.34s, "step-end"
+then set assDia8_css {
+    alpha = 1
+} 120ms
+then set assDia8_css {
+} 3700ms
+then set assDia8_css {
+    alpha = 0
+} 120ms
+def text assDia9_raw {
+    content = "枯れるよりいっそ　散り急ぐ姿"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia9_raw {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 31.37s, "step-end"
+then set assDia9_raw {
+    alpha = 1
+} 120ms
+then set assDia9_raw {
+} 4870ms
+then set assDia9_raw {
+    alpha = 0
+} 120ms
+def text assDia9_css {
+    content = "枯れるよりいっそ　散り急ぐ姿"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia9_css {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 31.37s, "step-end"
+then set assDia9_css {
+    alpha = 1
+} 120ms
+then set assDia9_css {
+} 4870ms
+then set assDia9_css {
+    alpha = 0
+} 120ms
+def text assDia10_raw {
+    content = "寻求着归宿的身影"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia10_raw {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 31.37s, "step-end"
+then set assDia10_raw {
+    alpha = 1
+} 120ms
+then set assDia10_raw {
+} 4870ms
+then set assDia10_raw {
+    alpha = 0
+} 120ms
+def text assDia10_css {
+    content = "寻求着归宿的身影"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia10_css {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 31.37s, "step-end"
+then set assDia10_css {
+    alpha = 1
+} 120ms
+then set assDia10_css {
+} 4870ms
+then set assDia10_css {
+    alpha = 0
+} 120ms
+def text assDia11_raw {
+    content = "迷い　歩くすべを"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia11_raw {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 36.80s, "step-end"
+then set assDia11_raw {
+    alpha = 1
+} 120ms
+then set assDia11_raw {
+} 4700ms
+then set assDia11_raw {
+    alpha = 0
+} 120ms
+def text assDia11_css {
+    content = "迷い　歩くすべを"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia11_css {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 36.80s, "step-end"
+then set assDia11_css {
+    alpha = 1
+} 120ms
+then set assDia11_css {
+} 4700ms
+then set assDia11_css {
+    alpha = 0
+} 120ms
+def text assDia12_raw {
+    content = "迷茫地迈足前进"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia12_raw {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 36.80s, "step-end"
+then set assDia12_raw {
+    alpha = 1
+} 120ms
+then set assDia12_raw {
+} 4700ms
+then set assDia12_raw {
+    alpha = 0
+} 120ms
+def text assDia12_css {
+    content = "迷茫地迈足前进"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia12_css {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 36.80s, "step-end"
+then set assDia12_css {
+    alpha = 1
+} 120ms
+then set assDia12_css {
+} 4700ms
+then set assDia12_css {
+    alpha = 0
+} 120ms
+def text assDia13_raw {
+    content = "千の波に　呑まれた心じゃ"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia13_raw {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 41.96s, "step-end"
+then set assDia13_raw {
+    alpha = 1
+} 120ms
+then set assDia13_raw {
+} 6800ms
+then set assDia13_raw {
+    alpha = 0
+} 120ms
+def text assDia13_css {
+    content = "千の波に　呑まれた心じゃ"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia13_css {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 41.96s, "step-end"
+then set assDia13_css {
+    alpha = 1
+} 120ms
+then set assDia13_css {
+} 6800ms
+then set assDia13_css {
+    alpha = 0
+} 120ms
+def text assDia14_raw {
+    content = "这颗被波涛掩去的真心"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia14_raw {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 41.96s, "step-end"
+then set assDia14_raw {
+    alpha = 1
+} 120ms
+then set assDia14_raw {
+} 6800ms
+then set assDia14_raw {
+    alpha = 0
+} 120ms
+def text assDia14_css {
+    content = "这颗被波涛掩去的真心"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia14_css {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 41.96s, "step-end"
+then set assDia14_css {
+    alpha = 1
+} 120ms
+then set assDia14_css {
+} 6800ms
+then set assDia14_css {
+    alpha = 0
+} 120ms
+def text assDia15_raw {
+    content = "君さえ守れない"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia15_raw {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 49.41s, "step-end"
+then set assDia15_raw {
+    alpha = 1
+} 120ms
+then set assDia15_raw {
+} 2110ms
+then set assDia15_raw {
+    alpha = 0
+} 120ms
+def text assDia15_css {
+    content = "君さえ守れない"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia15_css {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 49.41s, "step-end"
+then set assDia15_css {
+    alpha = 1
+} 120ms
+then set assDia15_css {
+} 2110ms
+then set assDia15_css {
+    alpha = 0
+} 120ms
+def text assDia16_raw {
+    content = "甚至没法保护你"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia16_raw {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 49.41s, "step-end"
+then set assDia16_raw {
+    alpha = 1
+} 120ms
+then set assDia16_raw {
+} 2110ms
+then set assDia16_raw {
+    alpha = 0
+} 120ms
+def text assDia16_css {
+    content = "甚至没法保护你"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia16_css {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 49.41s, "step-end"
+then set assDia16_css {
+    alpha = 1
+} 120ms
+then set assDia16_css {
+} 2110ms
+then set assDia16_css {
+    alpha = 0
+} 120ms
+def text assDia17_raw {
+    content = "響け　確かな衝動"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia17_raw {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 51.93s, "step-end"
+then set assDia17_raw {
+    alpha = 1
+} 120ms
+then set assDia17_raw {
+} 2450ms
+then set assDia17_raw {
+    alpha = 0
+} 120ms
+def text assDia17_css {
+    content = "響け　確かな衝動"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia17_css {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 51.93s, "step-end"
+then set assDia17_css {
+    alpha = 1
+} 120ms
+then set assDia17_css {
+} 2450ms
+then set assDia17_css {
+    alpha = 0
+} 120ms
+def text assDia18_raw {
+    content = "心脏在胸中激荡"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia18_raw {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 51.93s, "step-end"
+then set assDia18_raw {
+    alpha = 1
+} 120ms
+then set assDia18_raw {
+} 2450ms
+then set assDia18_raw {
+    alpha = 0
+} 120ms
+def text assDia18_css {
+    content = "心脏在胸中激荡"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia18_css {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 51.93s, "step-end"
+then set assDia18_css {
+    alpha = 1
+} 120ms
+then set assDia18_css {
+} 2450ms
+then set assDia18_css {
+    alpha = 0
+} 120ms
+def text assDia19_raw {
+    content = "鳴り止まぬように"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia19_raw {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 54.62s, "step-end"
+then set assDia19_raw {
+    alpha = 1
+} 120ms
+then set assDia19_raw {
+} 2080ms
+then set assDia19_raw {
+    alpha = 0
+} 120ms
+def text assDia19_css {
+    content = "鳴り止まぬように"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia19_css {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 54.62s, "step-end"
+then set assDia19_css {
+    alpha = 1
+} 120ms
+then set assDia19_css {
+} 2080ms
+then set assDia19_css {
+    alpha = 0
+} 120ms
+def text assDia20_raw {
+    content = "就像要跳出来一样"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia20_raw {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 54.62s, "step-end"
+then set assDia20_raw {
+    alpha = 1
+} 120ms
+then set assDia20_raw {
+} 2080ms
+then set assDia20_raw {
+    alpha = 0
+} 120ms
+def text assDia20_css {
+    content = "就像要跳出来一样"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia20_css {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 54.62s, "step-end"
+then set assDia20_css {
+    alpha = 1
+} 120ms
+then set assDia20_css {
+} 2080ms
+then set assDia20_css {
+    alpha = 0
+} 120ms
+def text assDia21_raw {
+    content = "忘れられぬ傷を残して"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia21_raw {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 57.16s, "step-end"
+then set assDia21_raw {
+    alpha = 1
+} 120ms
+then set assDia21_raw {
+} 4680ms
+then set assDia21_raw {
+    alpha = 0
+} 120ms
+def text assDia21_css {
+    content = "忘れられぬ傷を残して"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia21_css {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 57.16s, "step-end"
+then set assDia21_css {
+    alpha = 1
+} 120ms
+then set assDia21_css {
+} 4680ms
+then set assDia21_css {
+    alpha = 0
+} 120ms
+def text assDia22_raw {
+    content = "留下无法忘却的伤痕"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia22_raw {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 57.16s, "step-end"
+then set assDia22_raw {
+    alpha = 1
+} 120ms
+then set assDia22_raw {
+} 4680ms
+then set assDia22_raw {
+    alpha = 0
+} 120ms
+def text assDia22_css {
+    content = "留下无法忘却的伤痕"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia22_css {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 57.16s, "step-end"
+then set assDia22_css {
+    alpha = 1
+} 120ms
+then set assDia22_css {
+} 4680ms
+then set assDia22_css {
+    alpha = 0
+} 120ms
+def text assDia23_raw {
+    content = "今も微かな残像　消えないままで"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia23_raw {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 62.34s, "step-end"
+then set assDia23_raw {
+    alpha = 1
+} 120ms
+then set assDia23_raw {
+} 4620ms
+then set assDia23_raw {
+    alpha = 0
+} 120ms
+def text assDia23_css {
+    content = "今も微かな残像　消えないままで"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia23_css {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 62.34s, "step-end"
+then set assDia23_css {
+    alpha = 1
+} 120ms
+then set assDia23_css {
+} 4620ms
+then set assDia23_css {
+    alpha = 0
+} 120ms
+def text assDia24_raw {
+    content = "希望这微弱的残影 永远不要消失"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia24_raw {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 62.34s, "step-end"
+then set assDia24_raw {
+    alpha = 1
+} 120ms
+then set assDia24_raw {
+} 4620ms
+then set assDia24_raw {
+    alpha = 0
+} 120ms
+def text assDia24_css {
+    content = "希望这微弱的残影 永远不要消失"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia24_css {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 62.34s, "step-end"
+then set assDia24_css {
+    alpha = 1
+} 120ms
+then set assDia24_css {
+} 4620ms
+then set assDia24_css {
+    alpha = 0
+} 120ms
+def text assDia25_raw {
+    content = "世界が待ってる　明日の産声を"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia25_raw {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 67.32s, "step-end"
+then set assDia25_raw {
+    alpha = 1
+} 120ms
+then set assDia25_raw {
+} 4860ms
+then set assDia25_raw {
+    alpha = 0
+} 120ms
+def text assDia25_css {
+    content = "世界が待ってる　明日の産声を"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia25_css {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 67.32s, "step-end"
+then set assDia25_css {
+    alpha = 1
+} 120ms
+then set assDia25_css {
+} 4860ms
+then set assDia25_css {
+    alpha = 0
+} 120ms
+def text assDia26_raw {
+    content = "世界正在等待 属于明日的婴啼"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia26_raw {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 67.32s, "step-end"
+then set assDia26_raw {
+    alpha = 1
+} 120ms
+then set assDia26_raw {
+} 4860ms
+then set assDia26_raw {
+    alpha = 0
+} 120ms
+def text assDia26_css {
+    content = "世界正在等待 属于明日的婴啼"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia26_css {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 67.32s, "step-end"
+then set assDia26_css {
+    alpha = 1
+} 120ms
+then set assDia26_css {
+} 4860ms
+then set assDia26_css {
+    alpha = 0
+} 120ms
+def text assDia27_raw {
+    content = "響け　確かな衝動"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia27_raw {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 72.59s, "step-end"
+then set assDia27_raw {
+    alpha = 1
+} 120ms
+then set assDia27_raw {
+} 2490ms
+then set assDia27_raw {
+    alpha = 0
+} 120ms
+def text assDia27_css {
+    content = "響け　確かな衝動"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia27_css {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 72.59s, "step-end"
+then set assDia27_css {
+    alpha = 1
+} 120ms
+then set assDia27_css {
+} 2490ms
+then set assDia27_css {
+    alpha = 0
+} 120ms
+def text assDia28_raw {
+    content = "心脏在胸中激荡"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia28_raw {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 72.59s, "step-end"
+then set assDia28_raw {
+    alpha = 1
+} 120ms
+then set assDia28_raw {
+} 2490ms
+then set assDia28_raw {
+    alpha = 0
+} 120ms
+def text assDia28_css {
+    content = "心脏在胸中激荡"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia28_css {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 72.59s, "step-end"
+then set assDia28_css {
+    alpha = 1
+} 120ms
+then set assDia28_css {
+} 2490ms
+then set assDia28_css {
+    alpha = 0
+} 120ms
+def text assDia29_raw {
+    content = "消えないままで"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia29_raw {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 75.43s, "step-end"
+then set assDia29_raw {
+    alpha = 1
+} 120ms
+then set assDia29_raw {
+} 1900ms
+then set assDia29_raw {
+    alpha = 0
+} 120ms
+def text assDia29_css {
+    content = "消えないままで"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia29_css {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 75.43s, "step-end"
+then set assDia29_css {
+    alpha = 1
+} 120ms
+then set assDia29_css {
+} 1900ms
+then set assDia29_css {
+    alpha = 0
+} 120ms
+def text assDia30_raw {
+    content = "千万不要忘记"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia30_raw {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 75.43s, "step-end"
+then set assDia30_raw {
+    alpha = 1
+} 120ms
+then set assDia30_raw {
+} 1900ms
+then set assDia30_raw {
+    alpha = 0
+} 120ms
+def text assDia30_css {
+    content = "千万不要忘记"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia30_css {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 75.43s, "step-end"
+then set assDia30_css {
+    alpha = 1
+} 120ms
+then set assDia30_css {
+} 1900ms
+then set assDia30_css {
+    alpha = 0
+} 120ms
+def text assDia31_raw {
+    content = "そう　未来と過去が交差する"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia31_raw {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 77.73s, "step-end"
+then set assDia31_raw {
+    alpha = 1
+} 120ms
+then set assDia31_raw {
+} 3680ms
+then set assDia31_raw {
+    alpha = 0
+} 120ms
+def text assDia31_css {
+    content = "そう　未来と過去が交差する"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia31_css {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 77.73s, "step-end"
+then set assDia31_css {
+    alpha = 1
+} 120ms
+then set assDia31_css {
+} 3680ms
+then set assDia31_css {
+    alpha = 0
+} 120ms
+def text assDia32_raw {
+    content = "是的 这是一首交错着过去与未来的"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia32_raw {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 77.73s, "step-end"
+then set assDia32_raw {
+    alpha = 1
+} 120ms
+then set assDia32_raw {
+} 3680ms
+then set assDia32_raw {
+    alpha = 0
+} 120ms
+def text assDia32_css {
+    content = "是的 这是一首交错着过去与未来的"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xF6F7F4
+    alpha = 0
+    bold = 1
+    rotateZ = 0
+}
+set assDia32_css {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 77.73s, "step-end"
+then set assDia32_css {
+    alpha = 1
+} 120ms
+then set assDia32_css {
+} 3680ms
+then set assDia32_css {
+    alpha = 0
+} 120ms
+def text assDia33_raw {
+    content = "百年目の歌"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0x13017C
+    alpha = 0
+    bold = 1
+    textShadow = 0
+    rotateZ = 0
+}
+set assDia33_raw {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 81.83s, "step-end"
+then set assDia33_raw {
+    alpha = 1
+} 120ms
+then set assDia33_raw {
+} 1480ms
+then set assDia33_raw {
+    alpha = 0
+} 120ms
+def text assDia33_css {
+    content = "百年目の歌"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0x13017C
+    alpha = 0
+    bold = 1
+    textShadow = 0
+    rotateZ = 0
+}
+set assDia33_css {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 81.83s, "step-end"
+then set assDia33_css {
+    alpha = 1
+} 120ms
+then set assDia33_css {
+} 1480ms
+then set assDia33_css {
+    alpha = 0
+} 120ms
+def text assDia34_raw {
+    content = "百年长歌"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0x13017C
+    alpha = 0
+    bold = 1
+    textShadow = 0
+    rotateZ = 0
+}
+set assDia34_raw {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 81.83s, "step-end"
+then set assDia34_raw {
+    alpha = 1
+} 120ms
+then set assDia34_raw {
+} 1480ms
+then set assDia34_raw {
+    alpha = 0
+} 120ms
+def text assDia34_css {
+    content = "百年长歌"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0x13017C
+    alpha = 0
+    bold = 1
+    textShadow = 0
+    rotateZ = 0
+}
+set assDia34_css {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 81.83s, "step-end"
+then set assDia34_css {
+    alpha = 1
+} 120ms
+then set assDia34_css {
+} 1480ms
+then set assDia34_css {
+    alpha = 0
+} 120ms
+def text assDia35_raw {
+    content = "百年目の歌"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xFE1A1A
+    alpha = 0
+    bold = 1
+    textShadow = 0
+    rotateZ = 0
+}
+set assDia35_raw {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 83.56s, "step-end"
+then set assDia35_raw {
+    alpha = 1
+} 120ms
+then set assDia35_raw {
+} 120ms
+then set assDia35_raw {
+    alpha = 0
+} 120ms
+def text assDia35_css {
+    content = "百年目の歌"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xFE1A1A
+    alpha = 0
+    bold = 1
+    textShadow = 0
+    rotateZ = 0
+}
+set assDia35_css {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 83.56s, "step-end"
+then set assDia35_css {
+    alpha = 1
+} 120ms
+then set assDia35_css {
+} 120ms
+then set assDia35_css {
+    alpha = 0
+} 120ms
+def text assDia36_raw {
+    content = "百年长歌"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xFE1A1A
+    alpha = 0
+    bold = 1
+    textShadow = 0
+    rotateZ = 0
+}
+set assDia36_raw {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 83.56s, "step-end"
+then set assDia36_raw {
+    alpha = 1
+} 120ms
+then set assDia36_raw {
+} 120ms
+then set assDia36_raw {
+    alpha = 0
+} 120ms
+def text assDia36_css {
+    content = "百年长歌"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xFE1A1A
+    alpha = 0
+    bold = 1
+    textShadow = 0
+    rotateZ = 0
+}
+set assDia36_css {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 83.56s, "step-end"
+then set assDia36_css {
+    alpha = 1
+} 120ms
+then set assDia36_css {
+} 120ms
+then set assDia36_css {
+    alpha = 0
+} 120ms
+def text assDia37_raw {
+    content = "百年目の歌"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0x1BD6FF
+    alpha = 0
+    bold = 1
+    textShadow = 0
+    rotateZ = 0
+}
+set assDia37_raw {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 83.93s, "step-end"
+then set assDia37_raw {
+    alpha = 1
+} 120ms
+then set assDia37_raw {
+} 210ms
+then set assDia37_raw {
+    alpha = 0
+} 120ms
+def text assDia37_css {
+    content = "百年目の歌"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0x1BD6FF
+    alpha = 0
+    bold = 1
+    textShadow = 0
+    rotateZ = 0
+}
+set assDia37_css {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 83.93s, "step-end"
+then set assDia37_css {
+    alpha = 1
+} 120ms
+then set assDia37_css {
+} 210ms
+then set assDia37_css {
+    alpha = 0
+} 120ms
+def text assDia38_raw {
+    content = "百年长歌"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0x1BD6FF
+    alpha = 0
+    bold = 1
+    textShadow = 0
+    rotateZ = 0
+}
+set assDia38_raw {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 83.93s, "step-end"
+then set assDia38_raw {
+    alpha = 1
+} 120ms
+then set assDia38_raw {
+} 210ms
+then set assDia38_raw {
+    alpha = 0
+} 120ms
+def text assDia38_css {
+    content = "百年长歌"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0x1BD6FF
+    alpha = 0
+    bold = 1
+    textShadow = 0
+    rotateZ = 0
+}
+set assDia38_css {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 83.93s, "step-end"
+then set assDia38_css {
+    alpha = 1
+} 120ms
+then set assDia38_css {
+} 210ms
+then set assDia38_css {
+    alpha = 0
+} 120ms
+def text assDia39_raw {
+    content = "百年目の歌"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xFFC31B
+    alpha = 0
+    bold = 1
+    textShadow = 0
+    rotateZ = 0
+}
+set assDia39_raw {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 84.39s, "step-end"
+then set assDia39_raw {
+    alpha = 1
+} 120ms
+then set assDia39_raw {
+} 340ms
+then set assDia39_raw {
+    alpha = 0
+} 120ms
+def text assDia39_css {
+    content = "百年目の歌"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 1
+    fontFamily = "A-OTF Kumoya Std R"
+    fontSize = 2.97%
+    color = 0xFFC31B
+    alpha = 0
+    bold = 1
+    textShadow = 0
+    rotateZ = 0
+}
+set assDia39_css {
+    x = 50%
+    y = 98.61%
+    alpha = 0
+} 84.39s, "step-end"
+then set assDia39_css {
+    alpha = 1
+} 120ms
+then set assDia39_css {
+} 340ms
+then set assDia39_css {
+    alpha = 0
+} 120ms
+def text assDia40_raw {
+    content = "百年长歌"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xFFC31B
+    alpha = 0
+    bold = 1
+    textShadow = 0
+    rotateZ = 0
+}
+set assDia40_raw {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 84.39s, "step-end"
+then set assDia40_raw {
+    alpha = 1
+} 120ms
+then set assDia40_raw {
+} 340ms
+then set assDia40_raw {
+    alpha = 0
+} 120ms
+def text assDia40_css {
+    content = "百年长歌"
+    x = 10%
+    y = 110%
+    anchorX = 0.5
+    anchorY = 0
+    fontFamily = "方正稚艺_GBK"
+    fontSize = 2.66%
+    color = 0xFFC31B
+    alpha = 0
+    bold = 1
+    textShadow = 0
+    rotateZ = 0
+}
+set assDia40_css {
+    x = 50%
+    y = 1.39%
+    alpha = 0
+} 84.39s, "step-end"
+then set assDia40_css {
+    alpha = 1
+} 120ms
+then set assDia40_css {
+} 340ms
+then set assDia40_css {
+    alpha = 0
+} 120ms
